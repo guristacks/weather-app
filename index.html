@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- poppin font cdn -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+</head>
+
+<body>
+  <section>
+    <div class="container">
+
+      <!-- Header start -->
+      <div class="row flex header">
+
+        <!-- Logo or name of the site -->
+        <div class="col">
+          <p id="welcome">Welcome</p>
+          <h4>Weather App</h4>
+        </div>
+
+        <!-- search & account -->
+        <div class="col flex account">
+          <input class="search" type="text" placeholder="Search" />
+          <i id="offBtn" class="fa-solid off fa-toggle-off" style="display:flex; font-size: 25px;"></i>
+          <i id="onBtn" class="fa-solid on fa-toggle-on" style="display:none; font-size: 25px;"></i>
+          <img class="user-img" src="images/IMG_1193.JPG" alt="user image" />
+        </div>
+      </div>
+      <!-- Header end -->
+
+      <div class="row flex js">
+        <div class="col content">
+          <h1>Strom <br />With Heavy Rain</h1>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Culp sequi architecto.<br /> Necessitatibus nisi, libero inventore, labore,
+            blanditiis consequuntur voluptatibus dolore<br /> ipsam adipisci
+            veritatis magnam pariatur debitis voluptatum esse laudantium. Voluptas!
+          </p>
+        </div>
+
+        <div class="col">
+          <div class="info temp">
+            <p>Temprature <i class="fa-solid fa-temperature-high"></i></p>
+            <h2>10&deg; C</h2>
+          </div>
+          <div class="info wind">
+            <p>Wind Speed <i class="fa-solid fa-wind"></i></p>
+            <h2>15 Km/h</h2>
+          </div>
+          <div class="info humidity">
+            <p>Humidity <i class="fa-solid fa-droplet"></i></p>
+            <h2>40%</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <script src="./script.js"></script>
+</body>
+
+</html>
