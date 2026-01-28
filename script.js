@@ -10,7 +10,7 @@ offBtn.addEventListener("click", () => {
   offBtn.style.display = "none";
   onBtn.style.display = "flex";
   text.style.color = "#000";
-});
+}); 
 
 // ON → OFF
 onBtn.addEventListener("click", () => {
