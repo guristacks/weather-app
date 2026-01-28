@@ -48,3 +48,13 @@ onBtn.addEventListener("click", () => {
   // Changes in P tag
   text.style.color = "#fff";
 });
+
+
+
+
+const userImg = document.querySelector(".user-img");
+const userCard = document.querySelector(".user-card");
+
+userImg.addEventListener("click", () => {
+  userCard.classList.toggle("show");
+})
